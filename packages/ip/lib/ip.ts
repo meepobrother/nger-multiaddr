@@ -315,3 +315,4 @@ export class Ip {
         return family ? family.toLowerCase() as FamilyType : 'ipv4';
     }
 }
+export const ip = new Ip();
