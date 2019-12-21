@@ -28,3 +28,5 @@ export class VarInt {
         return new Buffer(hexString, 'hex')
     }
 }
+
+export const varInt = new VarInt()
